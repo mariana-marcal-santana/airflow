@@ -1276,7 +1276,7 @@ export const useDagServiceGetDagsSuspense = <
     limit?: number;
     offset?: number;
     onlyActive?: boolean;
-    orderBy?: string;
+    orderBy?: string[];
     owners?: string[];
     paused?: boolean;
     tags?: string[];
